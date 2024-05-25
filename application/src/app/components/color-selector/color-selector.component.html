@@ -1,0 +1,12 @@
+<div class="color-list">
+    <h2>Lista de Colores</h2>
+    <div class="color-inputs">
+        Rojo: <input [(ngModel)]="rojo" placeholder="ROJO">
+        Verde: <input [(ngModel)]="verde" placeholder="VERDE">
+        Azul: <input [(ngModel)]="azul" placeholder="AZUL">
+    </div>
+    <button (click)="agregarColor()">AGREGAR COLOR</button>
+    <div *ngFor="let color of colores" class="color-box" [style.background-color]="color.hex">
+        {{ color.hex }}
+    </div>
+</div>

@@ -1,0 +1,15 @@
+.calculator{
+    width: fit-content;
+    align-self: center;
+    height: fit-content;
+    background-color: rgb(195, 189, 241);
+    border-radius: 5px;
+
+}
+button{
+    color: white;
+    padding: 5px;
+    margin:10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
